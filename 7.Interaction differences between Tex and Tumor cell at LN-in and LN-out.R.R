@@ -1,7 +1,3 @@
-# nichenetr 多组间比较：tumor (sender)在LN-out阶段与Tex(receiver)的互作与其他阶段的区别
-### Differential NicheNet analysis between conditions of interest
-# https://github.com/saeyslab/nichenetr/blob/master/vignettes/differential_nichenet_pEMT.md
-# https://www.jianshu.com/p/917ee84f8b83 
 library(nichenetr)
 library(Seurat)
 library(tidyverse)
@@ -9,11 +5,8 @@ library(circlize)
 library(dplyr)
 library(clusterProfiler)
 library(RColorBrewer)
-# 
 set.seed(42)
 options(stringsAsFactors = F)
-setwd("/work/brj/Collaboration/2022/scRNA/HNSCC/Result/Fig4/")
-
 # #load Seurat rds
 HNSCC_Whole <- readRDS('/work/smy/Project/HNSCC/2.data/DeinfeTypes/HNSCC_26sampleAll_DefineTypes.rds.gz')
 Idents(HNSCC_Whole) <- HNSCC_Whole$DefineTypes
