@@ -1,1 +1,2 @@
 # HNSCC_scRNA
+Single-cell transcriptomic profiling of human HNSCC at different stages, including assessing the robustness of maintypes and subtypes cell types classification, the function enrichment of cell types, interaction between two cell types and cell-cell communications in celltypes HNSCC scRNA-seq dataset, and delineating the distinct features of malignant epithelial cells in primary and recurrent tumors.
